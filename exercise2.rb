@@ -21,3 +21,8 @@ puts "A good tip would be $#{meal * "20.0".to_i / 100}"
 puts "An OK tip would be $#{meal * "15.0".to_i / 100}"
 puts "A 'Service could be better'-tip would be $#{meal * "10.0".to_i /100}"
 puts "A 'I won't come back'-tip would be $#{meal * "0.0".to_i / 100}"
+
+# 3. Try outputting the result of 45628 
+# multiplied by 7839 in a sentence by using string interpolation.
+
+puts "45628".to_i * "7839".to_i
