@@ -26,3 +26,12 @@ puts "A 'I won't come back'-tip would be $#{meal * "0.0".to_i / 100}"
 # multiplied by 7839 in a sentence by using string interpolation.
 
 puts "45628".to_i * "7839".to_i
+
+# 4. What's the value of the expression 
+# (10 < 20 && 30 < 20) || !(10 == 11)? 
+# Try figuring it out on your own before typing it in.
+
+# (10 < 20 && 30 < 20) || !(10 == 11)
+# (true && false) || false
+# false || false
+# The value of this expression is: true
