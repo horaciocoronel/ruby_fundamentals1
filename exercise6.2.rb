@@ -14,11 +14,11 @@ loop do
 
 	elsif user_action == 'eat' || user_action == 'e'
 		user_energy += 10
-		puts "Your energy has increased by 3%. Your energy is #{user_energy}."
+		puts "Your energy has increased by 10. Your energy is #{user_energy}."
 
 	elsif user_action == 'rest' || user_action == 'r'
 		user_energy += 25
-		puts "Your energy has increased by 3%. Your energy is #{user_energy}"
+		puts "Your energy has increased by 25. Your energy is #{user_energy}"
 		
 
 	elsif user_energy >= 1
